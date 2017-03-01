@@ -1,0 +1,1 @@
+/Applications/AMPPS/www/totally/vendor/magento/module-downloadable/view/adminhtml/web/downloadable-type-handler.js

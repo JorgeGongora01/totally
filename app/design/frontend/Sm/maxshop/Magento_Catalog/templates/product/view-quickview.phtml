@@ -1,0 +1,31 @@
+<?php
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+?>
+
+<?php
+	$_config = $this->helper('Sm\Maxshop\Helper\Data');
+?>
+
+<div class="row view-quickview">
+	<div class="col-lg-5 col-md-5 col-sm-5 image-box-detail">
+		<?php echo $block->getChildHtml('product.info.media'); ?>
+	</div>
+	
+	<div class="col-lg-7 col-md-7 col-sm-7 info-box-detail">
+		<div class="info-detail-container">
+			<?php echo $block->getChildHtml('product.info.main'); ?>
+			
+			<div class="social-detail">
+				<!-- Go to www.addthis.com/dashboard to customize your tools -->
+			<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-577a208cc6110e71"></script>
+			<!-- Go to www.addthis.com/dashboard to customize your tools -->
+			<div class="addthis_sharing_toolbox"></div>
+			</div>
+		</div>
+	</div>
+</div>

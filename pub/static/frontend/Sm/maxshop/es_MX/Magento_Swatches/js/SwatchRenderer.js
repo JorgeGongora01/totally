@@ -1,0 +1,1 @@
+/Applications/AMPPS/www/totally/vendor/magento/module-swatches/view/frontend/web/js/SwatchRenderer.js

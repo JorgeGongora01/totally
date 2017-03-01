@@ -1,0 +1,1 @@
+/Applications/AMPPS/www/totally/vendor/magento/module-backend/view/adminhtml/web/js/bootstrap/editor.js

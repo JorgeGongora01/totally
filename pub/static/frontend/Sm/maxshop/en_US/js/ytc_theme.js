@@ -1,0 +1,1 @@
+/Applications/AMPPS/www/totally/app/design/frontend/Sm/maxshop/web/js/ytc_theme.js

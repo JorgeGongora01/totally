@@ -1,0 +1,1 @@
+/Applications/AMPPS/www/totally/app/code/Sm/ImageSlider/view/adminhtml/web/js/jscolor/jscolor.js

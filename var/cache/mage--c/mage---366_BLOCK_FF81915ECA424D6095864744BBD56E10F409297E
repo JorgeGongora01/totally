@@ -1,0 +1,154 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1488395517;s:6:"expire";i:1488402717;s:4:"tags";s:47:"366_STORE,366_CMS_BLOCK,366_BLOCK_HTML,366_MAGE";}
+<div class="footer-container footer-3">
+
+		<div class="footer-top">
+			<div class="container">
+				<div class="footer-cates">
+<ul>
+<li><a href="/totally/">Inicio</a></li>
+<li><a href="http://localhost/totally/muebles.html">Muebles</a></li>
+<li><a href="http://localhost/totally/salas.html">Salas</a></li>
+<li><a href="http://localhost/totally/comedores.html">Comedores</a></li>
+<li><a href="http://localhost/totally/recamaras.html">Recamaras</a></li>
+<li><a href="http://localhost/totally/decoracion.html">Decoración</a></li>
+<li><a href="http://localhost/totally/about-us">Acerca de nosotros</a></li>
+</ul>
+</div>			</div>
+		</div>
+		<div class="footer-middle">
+			<div class="container">
+				<div class="footer-content-middle">
+<div class="footer-logo"><img src="http://localhost/totally/pub/media//logo/default/totally_logo_white_footer.png" alt="Logo totally" width="189" /></div>
+<p>San Antonio de Padua #740-C/ Tel&eacute;fono: (801) 2345 - 6789<br /> E-mail: contacto@totally.com</p>
+</div>
+				<div class="socials-wrap">
+	<div class="title-follow">Follow Us</div>
+	<ul>
+				<li class="li-social facebook-social">
+			<a title="Facebook" href="https://www.facebook.com/MagenTech" target="_blank"> 
+				<span class="fa fa-facebook icon-social"></span><span class="name-social">Facebook</span> 
+			</a>
+		</li>
+				
+				<li class="li-social twitter-social">
+			<a title="Twitter" href="https://twitter.com/smartaddons" target="_blank"> 
+				<span class="fa fa-twitter icon-social"></span> <span class="name-social">Twitter</span> 
+			</a>
+		</li>
+				
+				<li class="li-social google-social">
+			<a title="Google+" href="https://plus.google.com/u/0/+Smartaddons/posts" target="_blank"> 
+				<span class="fa fa-google-plus icon-social"></span> <span class="name-social">Google+</span> 
+			</a>
+		</li>
+				
+				<li class="li-social linkedin-social">
+			<a title="Linkedin" href="#" target="_blank"> 
+				<span class="fa fa-linkedin icon-social"></span> <span class="name-social">Linkedin</span> 
+			</a>
+		</li>
+				
+				<li class="li-social pinterest-social">
+			<a title="Pinterest" href="#" target="_blank"> 
+				<span class="fa fa-pinterest icon-social"></span> <span class="name-social">Pinterest</span> 
+			</a>
+		</li>
+			</ul>
+</div>			</div>
+		</div>
+		
+		<div class="copyright">
+			<div class="container">
+				<div class="footer-copyright-content">
+					<div class="copyright-footer">
+													<address>Totally &copy; 2017. Todos los derechos reservados. Diseñado por <a title="oneclick.com.mx" target="_blank" href="http://www.oneclick.com.mx">OneClick</a>
+<br>
+<a href="privacy-policy-cookie-restriction-mode">Política de privacidad</a></address>
+											</div>
+					<div class="payment-footer">
+                        <img src="http://localhost/totally/pub/media/wysiwyg/payment/payment-footer3.png" alt="Payment" />                    </div>					
+				</div>
+			</div>
+		</div>
+
+		
+</div>
+
+    <a id="yt-totop" href="javascript:void(0)" title="Go to Top"></a>
+    <script type="text/javascript">
+        jQuery(document).ready(function($){
+            $("#yt-totop").hide();
+            $(function () {
+                var wh = $(window).height();
+                var whtml =  $(document).height();
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > whtml/10) {
+                        $('#yt-totop').fadeIn();
+                    } else {
+                        $('#yt-totop').fadeOut();
+                    }
+                });
+                $('#yt-totop').click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 800);
+                    return false;
+                });
+            });
+        });
+    </script>
+	
+
+
+<div class="modal fade" id="modal-login" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog block-popup-login">
+        <a href="javascript:void(0)" title="Close" class="close close-login fa fa-times-circle" data-dismiss="modal"></a>
+        <div class="tt_popup_login"><strong>Sign in Or Register</strong></div>
+        <div class="block-content">
+		<div class=" col-reg registered-account">
+			
+			<div class="block-content">
+				<form class="form form-login"
+					  action="http://localhost/totally/customer/account/loginPost/"
+					  method="post"
+					  id="login-form"
+					  data-mage-init='{"validation":{}}'>
+					<input name="form_key" type="hidden" value="EDw2DPlrKWIGzY6h" />					<fieldset class="fieldset login" data-hasrequired="* Required Fields">
+					
+						<div class="field email required email-input">
+							
+							<div class="control">
+								<input name="login[username]" value=""  autocomplete="off" id="email" type="email" class="input-text" title="Email" data-validate="{required:true, 'validate-email':true}">
+							</div>
+						</div>
+						<div class="field password required pass-input">
+							
+							<div class="control">
+								<input name="login[password]" type="password"  autocomplete="off" class="input-text" id="pass" title="Password" data-validate="{required:true, 'validate-password':true}">
+							</div>
+						</div>
+												<div class="secondary ft-link-p"><a class="action remind" href="http://localhost/totally/customer/account/forgotpassword/"><span>Forgot Your Password?</span></a></div>
+						<div class="actions-toolbar">
+							<div class="primary"><button type="submit" class="action login primary" name="send" id="send2"><span>Login</span></button></div>
+							
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>		
+            <div class="col-reg login-customer">
+                    <h2>NEW HERE?</h2>
+                    <p class="note-reg">Registration is free and easy!</p>
+                    <ul class="list-log">
+                        <li>Faster checkout</li>
+                        <li>Save multiple shipping addresses</li>
+                        <li>View and track orders and more</li>
+                    </ul>
+                    <a class="btn-reg-popup" title="Register" href="http://localhost/totally/customer/account/create/">Create an account</a>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+</div>
+		
+        

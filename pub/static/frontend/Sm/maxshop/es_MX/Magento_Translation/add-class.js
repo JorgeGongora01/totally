@@ -1,0 +1,1 @@
+/Applications/AMPPS/www/totally/vendor/magento/module-translation/view/frontend/web/add-class.js

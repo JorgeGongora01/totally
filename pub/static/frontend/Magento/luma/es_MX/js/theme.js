@@ -1,0 +1,1 @@
+/Applications/AMPPS/www/totally/vendor/magento/theme-frontend-blank/web/js/theme.js

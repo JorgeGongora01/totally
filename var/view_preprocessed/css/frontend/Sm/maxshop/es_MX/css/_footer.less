@@ -1,0 +1,23 @@
+.footer a[href^=tel] { color: inherit; text-decoration: none; }
+#yt-totop{
+  background: url("../images/up-arrow.png") no-repeat scroll center center #333333;
+  bottom: 30px;
+  height: 45px;
+  overflow: hidden;
+  position: fixed;
+  right: 20px;
+  width: 45px;
+  z-index: 9999;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+
+  &:hover{
+    background-color: @color_theme;
+  }
+}
+
+@import 'footer-style/_footer-1.less';
+@import 'footer-style/_footer-2.less';
+@import 'footer-style/_footer-3.less';
+@import 'footer-style/_footer-4.less';

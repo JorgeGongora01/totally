@@ -1,0 +1,1 @@
+/Applications/AMPPS/www/totally/lib/web/tiny_mce/plugins/media/editor_plugin_src.js

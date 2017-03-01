@@ -1,0 +1,53 @@
+.home-style-2{
+  .client-say .owl-controls{
+    .owl-nav{
+      display: none;
+    }
+  } 
+}
+.home-style-2 {
+  .static-home-2{
+    margin-bottom:33px;
+    display:inline-block;
+    width:100%;
+
+    > ul{
+      > li{
+        float:left;
+
+        a{
+          display:block;
+          clear:both;
+          position:relative;
+
+          &:before{
+            content:"";
+            display:inline-block;
+            position:absolute;
+            top:0px;
+            left:0px;
+            background: rgba(0,0,0,0.2);
+            width:100%;
+            height:100%;
+            opacity: 0;
+            .transition(.2s);
+            z-index:20;
+          }
+
+          img{
+            width:100%;
+
+            &:hover{
+              position: relative;
+              z-index: 9;
+            }
+          }
+        }
+
+        a:hover:before{
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

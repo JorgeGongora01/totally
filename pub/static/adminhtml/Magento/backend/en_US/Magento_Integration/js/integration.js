@@ -1,0 +1,1 @@
+/Applications/AMPPS/www/totally/vendor/magento/module-integration/view/adminhtml/web/js/integration.js

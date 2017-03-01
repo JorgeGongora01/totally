@@ -1,0 +1,69 @@
+<?php
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+?>
+
+<?php
+	$_config = $this->helper('Sm\Maxshop\Helper\Data');
+?>
+
+<div class="row">
+	<div class="col-lg-6 col-md-6 image-box-detail">
+		<?php echo $block->getChildHtml('product.info.media'); ?>
+	</div>
+	
+	<div class="col-lg-6 col-md-6 info-box-detail">
+		<?php echo $block->getChildHtml('product.info.main'); ?>
+		<div class="social-detail">
+			<!-- AddThis Button BEGIN -->
+				<div class="addthis_toolbox addthis_default_style ">
+				<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+				<iframe allowtransparency="true" frameborder="0" scrolling="no" src="https://platform.twitter.com/widgets/tweet_button.html" style="width:95px; height:20px; float:left;"></iframe>						                              
+				<a class="addthis_button_pinterest_pinit" pi:pinit:layout="horizontal"></a>
+				<a class="addthis_counter addthis_pill_style"></a>						
+				</div>
+				<script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
+				<?php //if($_product->getTypeId() === 'bundle'){ } else{?>
+				<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-529be2200cc72db5"></script>
+				<?php //} ?>
+			<!-- AddThis Button END -->	
+		</div>
+	</div>
+</div>
+<div class="row">
+	<?php 
+		$_related = strlen($block->getChildHtml('related.product'));
+	?>
+    <?php if($_config->getProductDetail('show_related') && $_related > 40){ 
+		$class_detail_bottom = "col-lg-9 col-md-9";
+		}else{
+			$class_detail_bottom = "col-lg-12 col-md-12";
+		} 
+	?>
+    <?php if($_config->getProductDetail('show_related') && $_related > 40){ ?>
+        <div class="sidebar col-lg-3 col-md-3">
+            <?php echo $block->getChildHtml('related.product'); ?>
+        </div>
+    <?php } ?>
+	<div class="<?php echo $class_detail_bottom;?> detail-bottom-wrapper">
+		<?php echo $block->getChildHtml('detail.bottom'); ?>
+
+        <?php
+        $related = $block->getChildHtml('related.product');
+        $upsell = $block->getChildHtml('upsell.product');
+        //var_dump($upsell);
+        ?>
+
+
+        <?php if($_config->getProductDetail('show_upsell')){?>
+            <div class="box-related-upsell">
+                <?php echo $block->getChildHtml('upsell.product'); ?>
+            </div>
+        <?php } ?>
+	</div>
+
+</div>

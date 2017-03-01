@@ -1,0 +1,1 @@
+/Applications/AMPPS/www/totally/lib/web/mage/translate-inline.js
