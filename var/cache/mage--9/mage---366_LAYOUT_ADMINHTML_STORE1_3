@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1488395635;s:6:"expire";d:9999999999;s:4:"tags";s:37:"366_LAYOUT_GENERAL_CACHE_TAG,366_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1488473180;s:6:"expire";d:9999999999;s:4:"tags";s:37:"366_LAYOUT_GENERAL_CACHE_TAG,366_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="adminhtml_system_design_theme_block"><body>
    <referenceBlock name="design_theme">
@@ -399,7 +399,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1488395635;s:6:"expire";d:9999999999;s:4:"t
    </referenceContainer>
 </body>
 </handle><handle id="default" layout="admin-1column"><head>
-   <title>Magento Admin</title>
+   <title>Totally Admin</title>
    <meta name="viewport" content="width=1024, initial-scale=1"/>
    <link src="requirejs/require.js"/>
    <css src="extjs/resources/css/ext-all.css"/>
@@ -416,7 +416,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1488395635;s:6:"expire";d:9999999999;s:4:"t
          <arguments>
             <argument name="show_part" xsi:type="string">logo</argument>
             <argument name="edition" translate="true" xsi:type="string">Community Edition</argument>
-            <argument name="logo_image_src" xsi:type="string">images/magento-icon.svg</argument>
+            <argument name="logo_image_src" xsi:type="string">images/Logo-1click-Final.png</argument>
          </arguments>
       </block>
       <block class="Magento\Backend\Block\GlobalSearch" name="global.search" as="search" after="logo" acl="Magento_Backend::global_search"/>

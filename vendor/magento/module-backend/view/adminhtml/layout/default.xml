@@ -7,7 +7,7 @@
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
-        <title>Magento Admin</title>
+        <title>Totally Admin</title>
         <meta name="viewport" content="width=1024, initial-scale=1"/>
         <link src="requirejs/require.js"/>
         <css src="extjs/resources/css/ext-all.css"/>
@@ -24,7 +24,7 @@
                 <arguments>
                     <argument name="show_part" xsi:type="string">logo</argument>
                     <argument name="edition" translate="true" xsi:type="string">Community Edition</argument>
-                    <argument name="logo_image_src" xsi:type="string">images/magento-icon.svg</argument>
+                    <argument name="logo_image_src" xsi:type="string">images/Logo-1click-Final.png</argument>
                 </arguments>
             </block>
             <block class="Magento\Backend\Block\GlobalSearch" name="global.search" as="search" after="logo" acl="Magento_Backend::global_search"/>
