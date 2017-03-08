@@ -1,0 +1,1 @@
+/Applications/AMPPS/www/totally/vendor/magento/module-marketplace/view/adminhtml/web/default.js

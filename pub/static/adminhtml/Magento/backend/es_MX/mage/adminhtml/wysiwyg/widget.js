@@ -1,0 +1,1 @@
+/Applications/AMPPS/www/totally/lib/web/mage/adminhtml/wysiwyg/widget.js
